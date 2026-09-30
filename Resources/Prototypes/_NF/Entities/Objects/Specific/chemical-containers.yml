@@ -207,7 +207,10 @@
   id: FuelPlasma
   name: fuel-grade plasma
   description: A rod made of desaturated plasma, suitable for fuel.
-  suffix: 25 # mono
+# Start of Triad change: updates base fuel-grade prototype from 25 to 50
+#  suffix: 25 # mono
+  suffix: 50
+# End of Triad change
   components:
   - type: Material
   - type: PhysicalComposition
@@ -224,7 +227,10 @@
     vendPrice: 1500 # mono
   - type: Stack
     stackType: FuelPlasma
-    count: 25 # mono
+    # Start of Triad change: updates base fuel-grade prototype from 25 to 50
+    #    count: 25 # mono
+    count: 50
+  # End of Triad change
   - type: Tag # Triad
     tags: # Triad
       - FitsInFuelStash # Triad
@@ -244,7 +250,10 @@
   id: FuelUranium
   name: fuel-grade uranium
   description: A rod made of semi-processed uranium, suitable for fuel.
-  suffix: 25 # mono
+  # Start of Triad change: updates base fuel-grade prototype from 25 to 50
+  #  suffix: 25 # mono
+  suffix: 50
+  # End of Triad change
   components:
   - type: Material
   - type: PhysicalComposition
@@ -261,7 +270,10 @@
     vendPrice: 3125 # mono
   - type: Stack
     stackType: FuelUranium
-    count: 25 # mono
+# Start of Triad change: updates base fuel-grade prototype from 25 to 50
+#    count: 25 # mono
+    count: 50
+# End of Triad change
   - type: Tag # Triad
     tags: # Triad
       - FitsInFuelStash # Triad
@@ -281,7 +293,10 @@
   id: FuelBananium
   name: fuel-grade bananium
   description: A rod made from pressed bananium peels, suitable for fuel.
-  suffix: 25 # mono
+  # Start of Triad change: updates base fuel-grade prototype from 25 to 50
+  #  suffix: 25 # mono
+  suffix: 50
+  # End of Triad change
   components:
   - type: Material
   - type: PhysicalComposition
@@ -298,7 +313,10 @@
     vendPrice: 6250 # mono
   - type: Stack
     stackType: FuelBananium
-    count: 25 # mono
+    # Start of Triad change: updates base fuel-grade prototype from 25 to 50
+    #    count: 25 # mono
+    count: 50
+  # End of Triad change
   - type: Tag # Triad
     tags: # Triad
       - FitsInFuelStash # Triad
