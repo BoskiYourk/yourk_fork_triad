@@ -27,7 +27,7 @@
       Steel: 20
 
 - type: entity
-  id: LargeThrusterUSSPMachineCircuitboard
+  id: LargeThrusterMilitaryMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: large military thruster machine board
   description: A large circuitboard for a 2x2 machine frame.
