@@ -1,7 +1,7 @@
 - type: pointOfInterest
   id: TradeDepot
   parent: [BasePOI, BaseRepairablePOI]
-  name: TFA Trade Depot
+  name: Auric Trade Depot
   minimumDistance: 8000
   maximumDistance: 10000
   spawnGroup: CargoDepot
@@ -25,7 +25,7 @@
 - type: pointOfInterest
   id: TradeDepotAlt
   parent: [BasePOI, BaseRepairablePOI]
-  name: TFA Trade Depot
+  name: Auric Trade Depot
   minimumDistance: 8000
   maximumDistance: 10000
   spawnGroup: CargoDepot
@@ -34,7 +34,7 @@
 
 - type: gameMap
   id: TradeDepot
-  mapName: 'TFA Trade Depot' # Has a letter appended in PointOfInterestSystem
+  mapName: 'Auric Trade Depot' # Has a letter appended in PointOfInterestSystem
   mapPath: /Maps/_Triad/POI/tradedepotalt.yml
   minPlayers: 0
   stations:
@@ -42,13 +42,13 @@
       stationProto: StandardFrontierOutpost
       components: &cargoStationComponents
         - type: StationNameSetup
-          mapNameTemplate: 'TFA Trade Depot' # Has a letter appended in PointOfInterestSystem
+          mapNameTemplate: 'Auric Trade Depot' # Has a letter appended in PointOfInterestSystem
         - type: TradeCrateDestination
           destinationProto: CargoA # Redefined in PointOfInterestSystem
 
 - type: gameMap
   id: TradeDepotAlt
-  mapName: 'TFA Trade Depot' # Has a letter appended in PointOfInterestSystem
+  mapName: 'Auric Trade Depot' # Has a letter appended in PointOfInterestSystem
   mapPath: /Maps/_Triad/POI/tradedepotalt.yml
   minPlayers: 0
   stations:
